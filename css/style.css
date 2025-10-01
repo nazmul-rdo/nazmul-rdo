@@ -171,6 +171,12 @@ p {
   overflow: hidden;
   position: relative;
 }
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+    padding: 50px 0;
+  }
+}
 
 .section .section-line-border {
   position: relative;
